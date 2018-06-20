@@ -10,7 +10,7 @@ const A = {
     }
 }
 
-const objB = {
+const B = {
     name: "b"
 }
 
