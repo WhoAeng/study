@@ -7,7 +7,7 @@ MYAPP.namespace = function (ns_string) {
         i; 
     
     // 처음에 중복되는 전역 객체명은 제거한다. 
-    if(parts[0] === MYAPP) { 
+    if(parts[0] === 'MYAPP') { 
         parts = parts.slice(1);
     }    
     for (i = 0; i < parts.length; i += 1) { 
